@@ -12,6 +12,7 @@ jobs:
       contents: write
 
     runs-on: ubuntu-latest
+    environment: secret
     
     steps:
     - name: Checkout code
